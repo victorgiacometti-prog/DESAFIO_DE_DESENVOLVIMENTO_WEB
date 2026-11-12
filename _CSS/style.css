@@ -1,16 +1,17 @@
-
+/* Imagem de fundo fixa sem repetição */
 body{
     background-image: url("../_IMAGES/imagem4.png");
     background-size: cover;
 } 
-/* Imagem de fundo fixa sem repetição */
 
+/* Estilo para a linha horizontal debaixo do menu principal do sistema */
 hr{
     border: 2px solid rgb(253, 11, 11);
     border-radius: 10px;
     box-shadow: 2px 0px 2px 0px black;
 }
 
+/* Estilo para a lista de itens do menu principal em azul (Ex: Início, Quem Somos, Produtos, Contato) */
 ul {
     list-style-type: none;
     margin-top: 30px;
@@ -23,12 +24,14 @@ ul {
     margin-left: 710px;
 }
 
+/* remove um elemento do fluxo normal da página e coloca ele para a esquerda do seu elemento principal*/
 li{
     float:left;
 }
 
+/* Estilizar os links dentro dos itens da lista do menu */
 li a{
-    display: block;
+    display: block; 
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -38,12 +41,14 @@ li a{
     
 }
 
+/* Estilizar os links quando o mouse passa sobre eles */
 li a:hover{
     transition: 0.2s;
     border-radius: 10px;
     background-color: rgb(241, 29, 29);
 }
 
+/* Estilizar o título principal da página (Bem-vindo à V3D Store) */
 .h1_1{
     font-family: arial, Helvetica, sans-serif;
     text-align: center;
@@ -51,6 +56,7 @@ li a:hover{
     text-shadow: 0px 0px 2px rgb(0, 0, 0);
 }
 
+/* Estilizar o subtítulo da página (V3D Store) */
 .h1_2{
     font-family: arial, Helvetica, sans-serif;
     text-align: center;
@@ -58,6 +64,8 @@ li a:hover{
     text-shadow: 0px 0px 2px rgb(0, 0, 0);
 }
 
+
+/* Estilizar o subtítulo da página (V3D Store) */
 h3{
     padding-left: 30px;
     padding-right: 30px;
@@ -67,23 +75,31 @@ h3{
     
 }
 
+/* Estilizar o botão de ação */
 .botao{
     background-color: rgb(61, 61, 219);
     color:white;
     padding: 10px 20px;
     border-radius: 10px;
-    box-shadow: 0px 2px 2px 0px black;}
+    border: 0px;
+    box-shadow: 0px 2px 2px 0px black;
+    cursor: pointer; /* Faz a animação do mouse quando para sobre o botão */
 
+}
+    
+/* Estilizar o botão de ação quando o mouse passa sobre ele */
 .botao:hover{
     transition: 0.2s;
     background-color: rgb(241, 29, 29);
     
 }
 
+/* Estilizar a caixa de entrada do botão no meio (Largura da esquerda para a direita) */
 .input_botao{
     padding-left: 770px;
 }
 
+/* Estilizar a caixa grande em vermelho*/
 .caixa_grande{
     font-size: 15px;
     margin-left: 300px;
@@ -94,6 +110,7 @@ h3{
     box-shadow: 2px 0px 2px 0px black;
 }
 
+/* Estilizar o logo da página no canto superior esquerdo */
 .img_logo{
     width: 200px;
     margin: 0px;
@@ -101,6 +118,7 @@ h3{
     position: absolute;
 }
 
+/* Estilizar o texto da página (parágrafo) */
 p{
     padding-left: 30px;
     padding-right: 30px;
@@ -109,6 +127,7 @@ p{
     border-radius: 10px;
 }
 
+/* Estilizar a caixa dos produtos */
 .caixa_produto{
     font-family: arial, Helvetica, sans-serif;
     
@@ -125,6 +144,7 @@ p{
     box-sizing: border-box;
 }
 
+/* Estilizar a imagem dos produtos */
 .img_produto{
 
     width: 300px;
@@ -133,6 +153,7 @@ p{
     display: block;
 }
 
+/* Estilizar os elementos lado a lado */
 .lado_a_lado{
     flex-wrap: wrap;
     
@@ -143,6 +164,7 @@ p{
     box-sizing: border-box;
 }
 
+/* Estilizar a caixa de texto (tamanho) */
 .input_text{
     
     padding-left: 30px;
